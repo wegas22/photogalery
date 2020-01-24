@@ -1,13 +1,19 @@
-php 7.3
-mysql
-apache 2.4
-git clone https://github.com/wegas22/photogalery.git
+php 7.3, mysql, apache 2.4
+
+git clone https://github.com/wegas22/photogalery.git 
+
 Настройка домена на просмотр /public/index.php
+
 Создание бд например photogalery
+
 Настройка .env файла (переименовать .env.example в .env)
+
 composer update
+
 php artisan migrate
+
 php artisan db:seed
+
 Самая простая фотогалерея с возможностями:
 Возможности фотопостов.
 1. Добавление фотопоста, название (title), алтернативный текст (alt), url адрес изображения, Публикации
